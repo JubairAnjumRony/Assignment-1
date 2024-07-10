@@ -10,7 +10,69 @@ body{
     font-family: "Azeret Mono", monospace;
    
 }
+/* shared styles */
 
+.semi-section-primary{
+    display:flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    margin: 48px auto;
+    gap: 20px;
+    border-radius: 16px;
+
+    background: linear-gradient(270.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0) 100%);
+}
+.semi-section-1,.semi-section-4,.semi-section-6{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+.h1-primary{
+    font-size: 32px;
+    font-weight: 800;
+    text-align: center;
+
+}
+.h1-primary-center{
+    font-size: 32px;
+    font-weight: 800;
+    text-align: left;
+
+}
+.h2-primary{
+    font-size: 24px;
+    font-weight: 700;
+    text-align:left;
+}
+.h3-primary{
+    font-size: 16px;
+    font-weight: 700;
+    text-decoration: underline;
+}
+.text-primary{
+    font-size:16px;
+    font-weight: 400;
+    text-align:left;
+    margin-bottom: 24px;
+}
+.text-center{
+    font-size:16px;
+    font-weight: 400;
+    text-align:center;
+    margin-bottom: 24px;
+}
+.btn-2-primary{
+   width: 150px;
+   height:48px;
+   font-size:20px;
+   font-weight: 500;
+   color: #0D1321; 
+   margin: 32px 0px;
+   text-align: center;
+   padding: 12px 20px 12px 20px;
+   border: 1px solid rgb(13, 19, 33)
+   
+}
 /* header styles */
 .banner-container{
    
