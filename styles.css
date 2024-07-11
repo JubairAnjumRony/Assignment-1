@@ -58,6 +58,12 @@ body{
     text-align: left;
     margin: 24px 0px;
 }
+.text-section{
+    font-size:16px;
+    font-weight: 400;
+    text-align:left;
+    margin: 24px 0px;
+}
 .text-center{
     font-size:16px;
     font-weight: 400;
@@ -82,7 +88,7 @@ body{
     width: 100%;
     height: 600px;
     
-    background-image: url("/assets/Hero-bg.png");
+    background-image: url("./assets/Hero-bg.png");
     background-repeat: no-repeat;
     background-position:center;
     background-size: cover;
@@ -225,7 +231,7 @@ font-weight: 600;
     width:1144px;
     height: 314px;
     margin: 0px 150px 79px 150px;
-    background-image: url("/assets/handshake.jpg");
+    background-image: url("./assets/handshake.jpg");
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -261,7 +267,7 @@ input[type="text"]{
 }
 
 .footer-content{
-    margin: 24px 200px 24px 150px;
+    margin: 24px 220px 24px 150px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
